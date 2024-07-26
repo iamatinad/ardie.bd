@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Candy;
+  src: url("/assets/candy.otf");
+}
+
+body {
+  font-family: "Happy Monkey", sans-serif;
+  text-align: center;
+  background:linear-gradient(#f2c1ae, #f29397) ;
+  color: #591a15;
+}
+
+#sis {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #f29397;
+}
+
+.ard {
+  color: #f29397;
+}
+
+#age {
+  background: #f29397;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0px 10px 0;
+}
+#date {
+  background: #f29397;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 6px solid #6f422f;
+  border-radius: 10px;
+  background-image: url("assets/gift-cover.jpg");
+  background-size: cover;
+}
+
+#gift-img-happy:hover {
+  background-image: url("/assets/happy.gif");
+}
+
+#gift-img-hot:hover {
+  background-image: url("/assets/hot.gif");
+}
+
+#gift-img-genius:hover {
+  background-image: url("/assets/genius.gif");
+}
+#gift-img-wish:hover {
+  background-image: url("/assets/ardnas.b.d.png");
+}
+
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("/assets/cheers.gif");
+}
+
+footer {
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a{
+  color: #591a15;
+  text-decoration: none;
+  font-style: italic;
+
+}
+
+a:hover{
+  background: #FFE5D3;
+}
